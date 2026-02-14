@@ -44,6 +44,10 @@ yesBtn.addEventListener("click", () => {
 
     catImg.src = "cat_dance.gif";
 
+    const bgmusic = new Audio("yippee-yippee-yippe-yippee-yippee-yippee-yippee-yippee-heheh.m4a");
+    bgmusic.loop = true;
+    bgmusic.play().catch(error => console.log("audio failed:", error));
+
     document.querySelector(".letter-window").classList.add("final");
 
     buttons.style.display = "none";
