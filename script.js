@@ -16,7 +16,7 @@ envelope.addEventListener("click", () => {
     letter.style.display = "flex";
 
     setTimeout( () => {
-        document.querySelector(".letter-window").classList.add("open");
+        document.querySelector(".letter-window").classList.add("open") ;
     },50);
 });
 
